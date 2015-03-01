@@ -20,3 +20,4 @@ Git Branching:
 If you want to create a new branch run `git branch <name>` and a new branch has been created. Then you switch to that branch using `git checkout <name>` and you push the changes
 with `git push origin <name>`. At the end, you can merge the branches from github interface (www.github.com).
 If you want to delete a branch you run `git branch -D <name>`
+After you do a merge of branches you will need to `git checkout master` and then `git pull origin master` to get the latest changes
